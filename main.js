@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
-
+require('dotenv').config();
 const client = new Discord.Client();
+//const TOKEN = process.env.TOKEN;
 
 const prefix = '-';
 
@@ -16,7 +17,7 @@ for(const file of commandFiles){
 }
 
 client.on('ready', () => {
-    console.log('DiscordBot is logged on!');
+    console.log('Music-bot is online now!');
     client.user.setActivity("-hug");
 });
 
@@ -41,4 +42,4 @@ client.on('message', message => {
     }
 });
 
-client.login('Nzk5ODY0MDg5MjQ5NDQ3OTM2.YAJxew.LTG4MWbuF-l_dBzGVPTKseI7_eA');
+client.login(process.env.CLIENT_TOKEN);
