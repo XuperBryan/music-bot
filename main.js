@@ -18,7 +18,7 @@ for(const file of commandFiles){
 
 client.on('ready', () => {
     console.log('Music-bot is online now!');
-    client.user.setActivity("-hug");
+    client.user.setActivity("-help");
 });
 
 client.on('message', message => {
