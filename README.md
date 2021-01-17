@@ -10,4 +10,4 @@ Basic music bot as practice for making discord bots
 | clear  | Clears the discord chat  | -clear [numberToClear] |
 | ping  | This is a ping command!  | -ping |
 
-Invite the bot to your server here: https://discord.com/oauth2/authorize?client_id=799864089249447936&scope=bot&permissions=3206208
+Invite the bot to your server here: https://discord.com/oauth2/authorize?client_id=799864089249447936&scope=bot&permissions=3156992
