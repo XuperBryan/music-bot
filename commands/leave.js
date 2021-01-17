@@ -1,7 +1,7 @@
 module.exports = {
     name: 'leave',
-    description: 'Description: stop the bot and leave the channel',
-    usage: "Usage: -leave\n\n",
+    description: 'Stop the bot and leave the channel',
+    usage: "-leave\n\n",
     async execute(message, args) {
         const voiceChannel = message.member.voice.channel;
  

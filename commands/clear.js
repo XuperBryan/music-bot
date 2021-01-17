@@ -1,7 +1,7 @@
 module.exports= {
     name: 'clear',
-    description: "Description: Clears the discord chat",
-    usage: "Usage: -clear <numberToClear>\n\n",
+    description: "Clears the discord chat",
+    usage: "-clear <numberToClear>\n\n",
     async execute(message, args){
         if(!args[0]) return message.reply("Please enter the amount of messages to clear!");
         if(isNaN(args[0])) return message.reply("Please enter a real number!");
