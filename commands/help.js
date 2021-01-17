@@ -20,8 +20,8 @@ module.exports= {
     });
 
     const embed = new Discord.MessageEmbed()
-        .setColor('#ff6666')
-        .setAuthor('Friendship Bot Help')
+        .setColor('#693699')
+        .setAuthor('Music-Bot Help')
         .setDescription('**Full Command List**')
         .addFields(
             list
